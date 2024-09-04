@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Process{% endblock %}
+
+{% block content %}
+    <h1>Process</h1>
+    <button id="startButton" >Start Process</button>
+    <br>
+    <br>
+    <button id="logOutButton" style="color: red;">Log Out</button>
+
+
+<script src="{% static 'js/websocket.js' %}"></script>
+
+{% endblock %}
